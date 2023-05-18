@@ -29,20 +29,20 @@ This site is still early in development and we are actively updating it with new
 Coming Soon 
 {: .label .label-red }
 
-[P1S](/){: .btn }
-[P2S](/){: .btn }
-[P3S](/){: .btn }
-[P4S](/){: .btn }
+[P1S](./){: .btn }
+[P2S](./){: .btn }
+[P3S](./){: .btn }
+[P4S](./){: .btn }
 
-[P5S](/p5s){: .btn }
-[P6S](/p6s){: .btn }
-[P7S](/){: .btn }
-[P8S](/){: .btn }
+[P5S](./p5s){: .btn }
+[P6S](./p6s){: .btn }
+[P7S](./){: .btn }
+[P8S](./){: .btn }
 
-[P9S](/){: .btn }
-[P10S](/){: .btn }
-[P11S](/){: .btn }
-[P12S](/){: .btn }
+[P9S](./){: .btn }
+[P10S](./){: .btn }
+[P11S](./){: .btn }
+[P12S](./){: .btn }
 
 ## Important Links
 
