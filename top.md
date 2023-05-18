@@ -10,33 +10,15 @@ parent: Ultimates
 
 # The Omega Protocol
 
-MUR Strats 
-{: .label .label-purple }
-
-## General Resources and Links
+### Credits
+- Written guide by Juno
+- Diagrams by Bird, MUR
 
 ### PoVs
 
 [DPS](ADD LINK HERE){: .btn }
 [Healer](ADD LINK HERE){: .btn }
 [Tank](ADD LINK HERE){: .btn }
-
-### Macros
-
-<details markdown=1>
-<summary>View All Macros</summary>
-
-**Macro 1**
-```
-Add Macro Here
-```
-
-**Macro 2**
-```
-Add Macro Here
-```
-
-</details>
 
 ### Cheatsheet
 
@@ -47,6 +29,10 @@ Add Macro Here
 
 ### Waymarks
 Waymarks are incredibly important in TOP as they are used for many mechanics in the fight for easy solves.
+
+```
+TODO: Insert waymark code here.
+```
 
 ## Fight Summary
 Guide written by Juno
@@ -68,9 +54,9 @@ The phase begins with heavy hitting auto-attacks before starting the first mecha
 
 ### Program Loop
 
-Program loop begins with each player being assigned a number from 1 to 4, with two of each across the party. This mechanic requires 4 sets of 2 towers to be soaked in a sequential order **(1->2->3->4)** that will deal significant damage to the player inside. 
+Program loop begins with each player being assigned a number from 1 to 4, with two of each across the party. This mechanic requires 4 sets of 2 towers to be soaked in a sequential order **(<img src="./assets/images/icons/first-in-line.png" class="bufficon"> → <img src="./assets/images/icons/second-in-line.png" class="bufficon"> → <img src="./assets/images/icons/third-in-line.png" class="bufficon"> → <img src="./assets/images/icons/fourth-in-line.png" class="bufficon">)** that will deal significant damage to the player inside. 
 
-For each set of towers that needs to be soaked, two tethers must be taken by two players and taken away from the towers in the order **(3->4->1->2)**.
+For each set of towers that needs to be soaked, two tethers must be taken by two players and taken away from the towers in the order **(<img src="./assets/images/icons/third-in-line.png" class="bufficon"> → <img src="./assets/images/icons/fourth-in-line.png" class="bufficon"> → <img src="./assets/images/icons/first-in-line.png" class="bufficon"> → <img src="./assets/images/icons/second-in-line.png" class="bufficon">)**.
 
 These tethers will explode in a large AOE on the targeted player and inflict a HP penalty debuff which will wear off after 10 seconds. 
 
@@ -128,7 +114,7 @@ Omega-M and Omega-F will then cast:
 
 Both bosses will become untargetable and disappear as the mechanic begins. 
 
-The party is inflicted with either **Mid Glitch** or **Remote Glitch**. Each player is also assigned 1 of 4 coloured symbols above their head, with two of each. 
+The party is inflicted with either **Mid Glitch** <img src="./assets/images/icons/mid-glitch.png" class="bufficon">  or **Remote Glitch** <img src="./assets/images/icons/remote-glitch.png" class="bufficon">. Each player is also assigned 1 of 4 coloured symbols above their head, with two of each. 
 
 {: .everyone }
 > The party should line-up from East to West as seen in the cheatsheet. 
@@ -209,7 +195,7 @@ Upon defeating Omega-F, the transition begins:
 {: .healers }
 > To survive this transition the party must have *at least* a barrier healer's shield covering the hits.
 
-The debuffs assigned will target 4 players with **Sniper Cannon Fodder** (spread), 2 players with **High-powered Sniper Cannon Fodder** (stack) and 2 players will not be assigned a debuff.
+The debuffs assigned will target 4 players with **Sniper Cannon Fodder** (spread) <img src="./assets/images/icons/sniper.png" class="bufficon">, 2 players with **High-powered Sniper Cannon Fodder** (stack) <img src="./assets/images/icons/high-power-sniper.png" class="bufficon"> and 2 players will not be assigned a debuff.
 
 Players must spread according to their debuff and priority, with the stacks and non-debuff players along the south edge of the arena, and the spread players along the north edge.
 
@@ -237,32 +223,32 @@ For those interested I've attached the ignorable debuffs in the dropdown below:
 <details markdown=1>
 <summary>Hello World Debuffs</summary>
 
-**Cascading Latent Defect**
+**Cascading Latent Defect** <img src="./assets/images/icons/latent cascade.png" class="bufficon">
 > Received from soaking a red puddle. Cleansed by allowing **Critical Underflow Bug** to expire. Failing to do so will wipe the raid.
 
-**Latent Performance Defect**
+**Latent Performance Defect** <img src="./assets/images/icons/latent performance defect.png" class="bufficon">
 > Received from soaking a blue puddle. Cleansed by allowing **Critical Performance Bug** to expire. Failing to do so will wipe the raid.
 
-**Latent Defect**
+**Latent Defect** <img src="./assets/images/icons/latent defect.png" class="bufficon">
 > Players must take damage before the debuff expires or they will die. This is assigned to **Christmas Tether** players.
 
-**Latent Synchronization Bug**
+**Latent Synchronization Bug** <img src="./assets/images/icons/latent synch.png" class="bufficon">
 > Must be hit by **Critical Synchronization Bug** to remove. Failure to do so results in death.
 
 </details>
 
 However, to actually resolve the mechanic we only care about 5 of them:
 
-- **Critical Underflow Bug** (aka Red Rot)
-- **Critical Performance Bug** (aka Blue Rot)
-- **Critical Overflow Bug** (aka Defamation)
-- **Critical Synchronization Bug** (aka Stack)
-- **Local Code Smell/Local Regression** (aka Christmas Tether)
-- **Remote Code Smell/Remote Regression** (aka Blue Tether)
+- **Critical Underflow Bug** (aka Red Rot) <img src="./assets/images/icons/Red Rot.webp" class="bufficon">
+- **Critical Performance Bug** (aka Blue Rot) <img src="./assets/images/icons/Blue Rot.png" class="bufficon">
+- **Critical Overflow Bug** (aka Defamation) <img src="./assets/images/icons/Defamation.webp" class="bufficon">
+- **Critical Synchronization Bug** (aka Stack) <img src="./assets/images/icons/Stack (HW).webp" class="bufficon">
+- **Local Code Smell/Local Regression** (aka Christmas Tether) <img src="./assets/images/icons/local regression.png" class="bufficon">
+- **Remote Code Smell/Remote Regression** (aka Blue Tether) <img src="./assets/images/icons/remote regression.png" class="bufficon">
 
 Throughout the phase, each player will have to get each of these debuffs. Once you have received and resolved your debuff, you will become immune to getting it again.
 
-Omega will then begin casting **Latent Defect**, causing 2 red and 2 blue puddles to spawn. The corresponding rot players will have to soak these puddles. As rot passes on contact, these players should be extremely cautious getting to their positions
+Upon casting **Latent Defect**, 2 red and 2 blue puddles spawn on opposite sides of the arena. The corresponding coloured rot players will have to soak these puddles. As rot passes on contact, these players should be extremely cautious getting to their positions
 
 **Critical Overflow Bug** and **Critical Synchronization Bug** are assigned randomly to one colour of rot. This will persist through the rest of the mechanic such that if red is defamation to begin with, red will be defamation for the remainder of the mechanic.
 
@@ -275,7 +261,7 @@ Omega will then begin casting **Latent Defect**, causing 2 red and 2 blue puddle
 > 
 > All players should never pass through the direct center of the arena to avoid walking through the H2 player.
 
-Tethers players will initially have an "inactive" buff, meaning that they can be any distance away from eachother without causing it to break. Once their tether becomes active, if **Blue Tethers** move far apart, the tether will break, and if **Christmas Tethers** move close together, their tether will break. Both breaks cause **high raid-wide** "patch" damage and a **Thrice-come Ruin debuff** to be inflicted on each player.
+Tethers players will initially have an "inactive" buff, meaning that they can be any distance away from eachother without causing it to break. Once their tether becomes active, if **Blue Tethers** move far apart, the tether will break, and if **Christmas Tethers** move close together, their tether will break. Both breaks cause **high raid-wide** "patch" damage and a **Thrice-come Ruin debuff** <img src="./assets/images/icons/Thrice come Ruin.webp" class="bufficon"> to be inflicted on each player.
 
 Failing to break a tether before it expires results in a wipe.
 
@@ -355,7 +341,7 @@ Two **Blue Tether Players** will also receive **Hello, Distant World** and **Hel
 
 [![](https://github.com/RancidDax/namazu.tools/assets/104756079/1d95a258-2f1d-4b07-9c57-42f650ce9b60)](https://github.com/RancidDax/namazu.tools/assets/104756079/1d95a258-2f1d-4b07-9c57-42f650ce9b60)
 
-Much like phase 3, breaking tethers results in a **large raid-wide hit** as well as inflicting **Thrice-come Ruin** on the party. However if the tether debuffs expire the party is killed. As such, we want to gradually break all 4 throughout the course of the mechanic so that the damage does not kill the party, but that we are also still able to still solve the mechanic.
+Much like phase 3, breaking tethers results in a **large raid-wide hit** as well as inflicting **Thrice-come Ruin** on the party. However if the tether debuffs expire the party is killed. As such, we want to gradually break all 4 throughout the course of the mechanic so that the damage does not kill the party whilst not letting the tethers expire.
 
 As the tethers are still **inactive**, the **Outer Blue Tether** will stretch so that it will break immediately upon becoming active.
 
@@ -394,11 +380,27 @@ After the Monitors resolve, **Beetle Omega** will cleave one side of the arena w
 Omega-M will then do another tank buster which the OT will invuln, before casting:
 
 ### Run: Dynamis (Sigma Version)
-Coming Soon 
+
+{: .note }
+> MUR employs blasphemous strategies of using AMs (they're actually really nice for the last trio), that simplifies the **Hello World** section of Sigma. However, it's pretty straightforward without them.
+
+At the beginning of Sigma, each player will be assigned 1 of 4 symbols and be inflicted with **Mid Glitch** or **Remote Glitch**, identical to **Party Synergy**. Two players will also be assigned a **Hello, Distant World** and **Hello, Near World** debuff. Two **Arms** will then spawn eitherside of a random cardinal/intercardinal and attach tethers to the two **furthest players** away from them. Directly opposite this is where **Omega-F** will spawn, where the party will move to line up as seen in the MUR cheatsheet.
+
+Players will then be assigned targeting markers on their head for a line AOE, such that **2 pairs will have 2 markers**, and **2 pairs will have 1 marker**. The 2 players with **no marker**, must be on the **Omega-F relative** North-East and North-West to bait two line AOEs from the Arms.
+
+Players will move to their designated positions, stepping in front of their waymarker for **Mid Glitch**, and moving to the wall for **Remote Glitch**.
+
+As MUR is using the **Waymark strat**, players will remember the waymark they spread to as they come to the middle. **Omega-F** will then knock-back each player, where **Mid/Remote Glitch** will be resolved.  **(images)**
+
+After the towers are soaked, **Final Omega's Blades** will spawn in the center with spinning arrows, and **Omega-F** will appear on a cardinal with either a staff or skates. Three players with 1 **Spark of Hope** stack are sent to the female, and the rest stack on the opposite side of the arena. If **Omega-F** has a **staff**, the players must wait against the edge of the AOE once it starts moving to avoid her cleave. If **Omega-F** has skates, simply chase the AOE after it begins moving.
+
+Players will then move into their **Hello World** positions as seen below:
+
+{: .note }
+> If solved correctly, 4 players will have 1 stack of **Spark of Hope**, and 4 players will have 2 stacks of **Spark of Hope**.
 
 ### Run: Dynamis (Omega Version)
-Coming Soon!
-
+Coming Soon
 
 ## Phase 6: Alpha Omega
 Coming Soon
